@@ -53,7 +53,12 @@ The Python node currently implements a basic occupancy-marking mapper, preservin
 The robot pose is represented as:
 
 $$
-\mathbf{x}_r = \begin{bmatrix} x \\ y \\ \theta \end{bmatrix}
+\mathbf{x}_r =
+\begin{bmatrix}
+x \\
+y \\
+\theta
+\end{bmatrix}
 $$
 
 where:
