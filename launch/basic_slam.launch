@@ -1,0 +1,15 @@
+<launch>
+  <env name="TURTLEBOT3_MODEL" value="waffle_pi"/>
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+
+  <node pkg="scan2grid_tb3"
+        type="basic_slam.py"
+        name="basic_slam"
+        output="screen" />
+
+  <node pkg="rviz"
+        type="rviz"
+        name="rviz"
+        output="screen" />
+</launch>

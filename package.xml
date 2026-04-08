@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>scan2grid_tb3</name>
+  <version>0.1.0</version>
+  <description>ROS1 TurtleBot3 occupancy-grid mapping project using laser scans and odometry in Gazebo.</description>
+
+  <maintainer email="aymisxx@proton.me">Ayushman Mishra</maintainer>
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/aymisxx/Scan2Grid-TB3</url>
+  <author email="aymisxx@proton.me">Ayushman Mishra</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>nav_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>
+  <depend>turtlebot3</depend>
+  <depend>turtlebot3_gazebo</depend>
+
+  <exec_depend>slam_gmapping</exec_depend>
+
+  <export>
+  </export>
+</package>
